@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+html,body{
+    background-color: yellow;
+}
+
+.App{
+    padding-top: 15px;
+    font-family: Lato, sans-serif;
+}
+.logo-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.logo{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-principal{
+    margin: 15px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contenedor-boton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
